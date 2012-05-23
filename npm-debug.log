@@ -1,0 +1,279 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', '.' ]
+info using npm@1.0.106
+info using node@v0.6.5
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/ykifle/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.3.10',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: { connect: '>= 1.4.1 < 2.0.0', mime: '>= 0.0.1', qs: '>= 0.0.6' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.7.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.11.0',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.2.1',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'express@2.3.10',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/express/package.json
+verbose loadDefaults express@2.3.10
+silly testEngine { name: 'file-api',
+silly testEngine   description: 'HTML5 FileAPI for Node.JS.',
+silly testEngine   url: 'http://github.com/coolaj86/node-file-api/',
+silly testEngine   keywords: [ 'html5', 'jsdom', 'file-api' ],
+silly testEngine   author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: { bufferjs: '> 0.2.0', noop: '>= 0.1.0', futures: '>= 1.9.4' },
+silly testEngine   main: './index',
+silly testEngine   version: '0.9.3',
+silly testEngine   _id: 'file-api@0.9.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/file-api/package.json
+verbose loadDefaults file-api@0.9.3
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ORM',
+silly testEngine   version: '1.7.4',
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: [ 'mongodb', 'mongoose', 'orm', 'data', 'datastore', 'nosql' ],
+silly testEngine   dependencies: { hooks: '0.1.9', mongodb: '0.9.6-7', colors: '0.5.0' },
+silly testEngine   devDependencies: { should: '0.2.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.2.0' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _id: 'mongoose@1.7.4',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@1.7.4
+silly testEngine { name: 'mustache',
+silly testEngine   author: { name: 'http://mustache.github.com/' },
+silly testEngine   description: '{{ mustache }} in JavaScript — Logic-less templates.',
+silly testEngine   keywords: [ 'template' ],
+silly testEngine   version: '0.3.1-dev',
+silly testEngine   main: './mustache',
+silly testEngine   _id: 'mustache@0.3.1-dev',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/mustache/package.json
+verbose loadDefaults mustache@0.3.1-dev
+WARN mongodb@0.9.6-7 package.json: bugs['web'] should probably be bugs['url']
+silly testEngine { name: 'mongodb',
+silly testEngine   description: 'A node.js driver for MongoDB',
+silly testEngine   version: '0.9.6-7',
+silly testEngine   author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Nathan White', email: 'nw@nwhite.net' },
+silly testEngine      { name: 'Adam Wiggins', email: 'adam@heroku.com' },
+silly testEngine      { name: 'Ian Millington', email: 'idmillington@googlemail.com' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Christoph Pojer' },
+silly testEngine      { name: 'Erik Abele' },
+silly testEngine      { name: 'Henrik Johansson', email: 'dahankzter@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/christkv/node-mongodb-native.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'node-mongodb-native@googlegroups.com',
+silly testEngine      url: 'http://github.com/christkv/node-mongodb-native/issues' },
+silly testEngine   os: [ 'linux', 'darwin', 'freebsd' ],
+silly testEngine   config: { native: false },
+silly testEngine   main: './lib/mongodb/index',
+silly testEngine   directories: { lib: './lib/mongodb' },
+silly testEngine   engines: { node: '>=0.4.0' },
+silly testEngine   scripts: { install: 'bash ./install.sh' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'Apache License, Version 2.0',
+silly testEngine        url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly testEngine   _id: 'mongodb@0.9.6-7',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/mongodb/package.json
+verbose loadDefaults mongodb@0.9.6-7
+silly testEngine { name: 'restify',
+silly testEngine   description: 'REST framework specifically meant for web service APIs',
+silly testEngine   version: '0.3.15',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/mcavage/node-restify.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'Mark Cavage',
+silly testEngine      email: 'mcavage@gmail.com',
+silly testEngine      url: 'http://www.joyent.com' },
+silly testEngine   main: 'lib/restify.js',
+silly testEngine   dependencies: 
+silly testEngine    { formidable: '1.0.2',
+silly testEngine      httpu: '0.0.1',
+silly testEngine      'node-uuid': '1.2.0',
+silly testEngine      retry: '0.4.0',
+silly testEngine      semver: '~1.0.8' },
+silly testEngine   scripts: 
+silly testEngine    { pretest: 'gjslint --nojsdoc -r . -x lib/sprintf.js -e node_modules; jshint lib tst',
+silly testEngine      test: 'whiskey --quiet --sequential --timeout 4000 -t "`find tst -name *.test.js | xargs`"' },
+silly testEngine   man: 
+silly testEngine    [ './docs/restify.3',
+silly testEngine      './docs/restify-client.7',
+silly testEngine      './docs/restify-log.7',
+silly testEngine      './docs/restify-request.7',
+silly testEngine      './docs/restify-response.7',
+silly testEngine      './docs/restify-routes.7',
+silly testEngine      './docs/restify-throttle.7',
+silly testEngine      './docs/restify-versions.7' ],
+silly testEngine   devDependencies: { jshint: '0.2.3', whiskey: '0.4.0' },
+silly testEngine   engines: { node: '~0.4' },
+silly testEngine   _id: 'restify@0.3.15',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/restify/package.json
+verbose loadDefaults restify@0.3.15
+silly testEngine { name: 'uglify-js',
+silly testEngine   description: 'JavaScript parser and compressor/beautifier toolkit',
+silly testEngine   author: 
+silly testEngine    { name: 'Mihai Bazon',
+silly testEngine      email: 'mihai.bazon@gmail.com',
+silly testEngine      url: 'http://mihai.bazon.net/blog' },
+silly testEngine   version: '1.1.1',
+silly testEngine   main: './uglify-js.js',
+silly testEngine   bin: { uglifyjs: './bin/uglifyjs' },
+silly testEngine   repository: { type: 'git', url: 'git@github.com:mishoo/UglifyJS.git' },
+silly testEngine   _id: 'uglify-js@1.1.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/uglify-js/package.json
+verbose loadDefaults uglify-js@1.1.1
+silly testEngine { name: 'mime',
+silly testEngine   description: 'A comprehensive library for mime-type mapping',
+silly testEngine   url: 'http://github.com/bentomas/node-mime',
+silly testEngine   keywords: [ 'util', 'mime' ],
+silly testEngine   author: 
+silly testEngine    { name: 'Benjamin Thomas',
+silly testEngine      email: 'benjamin@benjaminthomas.org' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: {},
+silly testEngine   lib: '.',
+silly testEngine   main: 'mime.js',
+silly testEngine   version: '1.2.2',
+silly testEngine   _id: 'mime@1.2.2',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/mime/package.json
+verbose loadDefaults mime@1.2.2
+silly testEngine { name: 'remedial',
+silly testEngine   description: 'Douglas Crockford\'s Remedial JavaScript',
+silly testEngine   url: 'http://javascript.crockford.com/remedial.html',
+silly testEngine   keywords: 
+silly testEngine    [ 'util',
+silly testEngine      'isEmpty',
+silly testEngine      'typeOf',
+silly testEngine      'entityify',
+silly testEngine      'quote',
+silly testEngine      'supplant',
+silly testEngine      'trim' ],
+silly testEngine   author: { name: 'Douglas Crockford', email: 'douglas@crockford.com' },
+silly testEngine   contributors: [ { name: 'AJ ONeal', email: 'coolaj86@gmail.com' } ],
+silly testEngine   dependencies: {},
+silly testEngine   main: './remedial',
+silly testEngine   version: '1.0.6',
+silly testEngine   _id: 'remedial@1.0.6',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/remedial/package.json
+verbose loadDefaults remedial@1.0.6
+silly testEngine { name: 'underscore',
+silly testEngine   description: 'JavaScript\'s functional programming helper library.',
+silly testEngine   homepage: 'http://documentcloud.github.com/underscore/',
+silly testEngine   keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+silly testEngine   author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: {},
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/documentcloud/underscore.git' },
+silly testEngine   main: 'underscore.js',
+silly testEngine   version: '1.1.7',
+silly testEngine   _id: 'underscore@1.1.7',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.5',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/ykifle/Sites/node_modules/underscore/package.json
+verbose loadDefaults underscore@1.1.7
+verbose into /Users/ykifle/Sites [ '.' ]
+verbose cache add .
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+ERR! Could not install: .
+ERR! Error: ENOENT, no such file or directory 'package.json'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.4.0
+ERR! command "node" "/usr/local/bin/npm" "install" "."
+ERR! cwd /Users/ykifle/Sites/kifle
+ERR! node -v v0.6.5
+ERR! npm -v 1.0.106
+ERR! path package.json
+ERR! code ENOENT
+verbose exit [ 1, true ]
